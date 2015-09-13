@@ -1,0 +1,200 @@
+// header css starts
+
+.button-container{
+  position:fixed;
+  top:3%;
+  left:5%;
+  height:21px;
+  width:29px;
+  cursor:pointer;
+  transition:opacity .25s ease;
+  z-index:200;
+  &:hover{
+    opacity:.7
+  }
+}
+.button-container span{
+  background:$header-button-color-one;
+  border:none;
+  height:4px;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  transition:all .5s ease;
+  cursor:pointer
+}
+.button-container span:nth-of-type(2){
+  top:9px
+}
+.button-container span:nth-of-type(3){
+  top:18px
+}
+.top.active{
+  transform:translateY(9px) translateX(0) rotate(45deg);
+  background:#FFF;
+}
+.middle.active{
+  opacity:0;
+  background:#FFF
+}
+.bottom.active{
+  transform:translateY(-9px) translateX(0) rotate(-45deg);
+  background:#FFF
+}
+.overlay{
+  position:fixed;
+  background:$header-color-overlay;
+  top:0;
+  left:0;
+  width:0;
+  height:100%;
+  opacity:0;
+  visibility:hidden;
+  transition:opacity .35s,visibility .35s,width .35s ease-in-out;
+  overflow:hidden;
+  z-index:100;
+}
+.overlay.open{
+  opacity:.9;
+  visibility:visible;
+  width:100%;
+  overflow:hidden;
+}
+.overlay nav{
+  position:relative;
+  height:60%;
+  top:50%;
+  transform:translateY(-50%);
+  font-size:32px;
+  font-family:"Montserrat",sans-serif;
+  font-weight:400;
+  text-align:center
+}
+.overlay nav ul{
+  list-style:none;
+  padding:0;
+  margin:0 auto;
+  display:inline-block;
+  position:relative;
+  height:100%
+}
+.overlay nav ul li{
+  display:block;
+  height:20%;
+  // height:-webkit-calc(100% / 5);
+  // height:calc(100% /  5);
+  min-height:32px;
+  position:relative;
+  opacity:0
+}
+.overlay.open nav ul li{
+  -webkit-animation:menuFade .5s ease forwards;
+  animation:menuFade .5s ease forwards;
+  -webkit-animation-delay:.35s;animation-delay:.35s
+}
+.overlay.open nav ul li:nth-of-type(2){
+  animation-delay:.4s
+}
+.overlay.open nav ul li:nth-of-type(3){
+  animation-delay:.45s
+}
+.overlay.open nav ul li:nth-of-type(4){
+  animation-delay:.5s
+}
+.overlay.open nav ul li:nth-of-type(5){
+  animation-delay:.55s
+}
+.overlay.open nav ul li:nth-of-type(6){
+  animation-delay:.6s
+}
+
+@-webkit-keyframes menuFade{
+  0%{
+  opacity:0;left:-25%
+  }
+100%{
+  opacity:1;left:0
+ }
+}
+@keyframes menuFade{
+  0%{
+    opacity:0;left:-25%
+  }
+  100%{
+    opacity:1;left:0
+  }
+}
+.overlay nav ul li a{
+  display:block;
+  position:relative;
+  color:#FFF;
+  overflow:hidden
+}
+.overlay nav ul li a:hover{
+  text-decoration:none
+}
+.overlay nav ul li a:after{
+  content:'';
+  position:absolute;
+  bottom:0;
+  left:0;
+  transform:translateX(-105%);
+  height:3px;
+  width:100%;
+  background:#FFF;
+  transition:.35s ease
+}
+.overlay nav ul li a:hover:after{
+  transform:translateX(0%)
+}
+
+// header ends
+
+
+
+
+//footer
+
+footer{
+  background-color:$footer-color-one;
+  border-top:1px solid $footer-color-two;
+  color:$footer-color-three;
+  font-size:.929em;
+  height:150px;
+  padding-top:20px;
+  text-align:center;
+}
+footer span{
+  color:$footer-span-color;
+  animation-iteration-count:infinite;
+}
+.social{
+  margin-right:15px;
+  margin-bottom:20px;
+}
+.social a{
+  color:$footer-social-color;
+  opacity:.8;
+  transition:.35s;
+}
+.social a:hover{
+  opacity:1;
+}
+.social-twitter:hover{
+  color:$footer-twitter-color;
+}
+.social-facebook:hover{
+  color:$footer-fb-color;
+}
+.social-linkedin:hover{
+  color:$footer-twitter-color;
+}
+.social-github:hover{
+  color:#000
+}
+.social-mail:hover{
+  color:$footer-span-color;
+}
+
+// footer ends

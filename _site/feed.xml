@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rakesh G</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 13 Sep 2015 07:20:31 +0530</pubDate>
+    <lastBuildDate>Sun, 13 Sep 2015 07:20:31 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Learned Ruby</title>
+        <description></description>
+        <pubDate>Mon, 27 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/27/learned-ruby.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/27/learned-ruby.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Editing Contact</title>
+        <description></description>
+        <pubDate>Wed, 22 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/22/editing-contact.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/22/editing-contact.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Created Profile Portfolio Contact</title>
+        <description></description>
+        <pubDate>Tue, 21 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/21/created-profile-portfolio-contact.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/21/created-profile-portfolio-contact.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Built Wireframe Created Land Html</title>
+        <description></description>
+        <pubDate>Mon, 20 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/20/built-wireframe-created-land-html.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/20/built-wireframe-created-land-html.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Started Building Mywebsite</title>
+        <description></description>
+        <pubDate>Sun, 19 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/19/started-building-mywebsite.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/19/started-building-mywebsite.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Build My First Homepage</title>
+        <description></description>
+        <pubDate>Sat, 18 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/18/build-my-first-homepage.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/18/build-my-first-homepage.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Install Jekyll Started Project</title>
+        <description></description>
+        <pubDate>Fri, 17 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/17/install-jekyll-started-project.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/17/install-jekyll-started-project.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Learn Jekyll</title>
+        <description></description>
+        <pubDate>Thu, 16 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/16/learn-jekyll.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/16/learn-jekyll.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Install Stuff</title>
+        <description></description>
+        <pubDate>Tue, 14 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/14/install-stuff.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/14/install-stuff.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Practice Html</title>
+        <description></description>
+        <pubDate>Sun, 12 Apr 2015 00:00:00 +0530</pubDate>
+        <link>http://yourdomain.com/2015/04/12/practice-html.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/04/12/practice-html.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

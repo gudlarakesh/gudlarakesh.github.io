@@ -1,0 +1,188 @@
+html{
+  overflow:auto
+}
+body{
+  font-family:"Montserrat",sans-serif;
+  font-size:15px;
+  overflow: hidden;
+}
+
+p{
+  font-family:"Varela Round",sans-serif;
+  line-height:2em
+}
+a{color:#000}
+
+
+// Land page css start
+
+.bkg{
+  background:url('../image/profile2.jpg') center/cover no-repeat;
+  position:relative;
+  min-height:102vh;
+}
+
+.mouse {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 26px;
+    height: 46px;
+    border-radius: 13px;
+    border: 2px solid #fff;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.mouse span {
+    display: block;
+    margin: 6px auto;
+    width: 3px;
+    height: 3px;
+    border-radius: 4px;
+    background: #fff;
+    border: 1px solid transparent;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: scroll;
+}
+
+@-webkit-keyframes scroll {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+
+.uppercase{
+  text-transform:uppercase
+}
+
+#title{
+  color:#3299BB ;
+  animation-delay:.5s;
+  font-size: 5em;
+  font-weight:100;
+  margin-top: 9vh;
+}
+
+#sub{
+  color: #3299BB;
+  font-size:2em;
+  margin-top:6vh;
+  animation-delay:1s;
+  animation-duration:1s
+}
+
+.divider{
+  background-color:#3299BB;
+  height:2px;
+  width:80px;
+  margin:30px auto
+  }
+
+
+.intro-lg{
+  text-align:center;
+  padding-top:150px;
+  padding-bottom:150px
+}
+
+// Land page css ends
+
+
+@media(min-width:768px){
+  h1{
+    font-size:3.571em
+  }
+  h2{
+    font-size:1.571em
+  }
+  .text-center-to-left{
+    text-align:left
+  }
+  .overlay nav{
+    height:65%;
+    font-size:40px
+  }
+  .overlay nav ul li{
+    display:block;
+    height:20%;
+    height:-webkit-calc(100% / 5);
+    height:calc(100% / 5);
+    min-height:40px;
+    position:relative;
+    opacity:0;
+  }
+  .button-container{
+    height:27px;
+    width:35px;
+    top:3%;
+    left:2%;
+  }
+  .button-container span{
+    height:5px
+  }
+  .button-container span:nth-of-type(2){
+    top:11px
+  }
+  .button-container span:nth-of-type(3){
+    top:22px
+  }
+  .top.active{
+    transform:translateY(11px) translateX(0) rotate(45deg);
+    background:#FFF
+  }
+  .bottom.active{
+    transform:translateY(-11px) translateX(0) rotate(-45deg);
+    background:#FFF
+  }
+}
+@media(min-width:992px){
+  .about-logo{
+    max-height:180px
+  }
+  .portfolio,.resume{
+    padding-top:20px
+  }
+}
+
+
+@media(min-width:1200px){
+  h1{
+    font-size:5.357em
+  }
+  h2{
+    font-size:1.786em
+  }
+  h3{
+    font-size:1.571em
+  }
+  .about-logo{
+    max-height:100%
+  }
+  .overlay nav{
+    height:70%;
+    font-size:50px
+  }
+  .overlay nav ul li{
+    display:block;
+    height:20%;
+    height:-webkit-calc(100% / 5);
+    height:calc(100% / 5);
+    min-height:50px;
+    position:relative;
+    opacity:0
+  }
+  .overlay nav ul li a:after{
+    height:4px
+  }
+}

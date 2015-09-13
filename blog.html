@@ -1,0 +1,22 @@
+---
+layout: blog
+permalink: /blog/
+---
+
+<div id="blog" class="container">
+  <!-- <div class="btn btn-primary pull-right"><a href="/">Home</a> </div> -->
+  {% for post in site.posts %}
+    <article class="post">
+      <div class="time">
+        {{post.date | date: "%b %-d, %Y"}}
+      </div>
+      <h2>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <p class="excerpt">
+        {{post.excerpt}}
+      </p>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="read_more">Read more &raquo;</a>
+    </article>
+  {% endfor %}
+</div>
