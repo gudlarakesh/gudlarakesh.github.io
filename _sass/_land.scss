@@ -165,13 +165,14 @@ figure.effect-item:hover p {
 
 @media only screen and (max-width: 767px) {
   #portfolio{
-    height:200vh;
+    height:260vh;
     .portfolio-item {
-        height: 25vh;
+        height: 35vh;
     }
     figure.effect-item h2 {
         padding-top: 45px;
         font-size: 1em;
+        text-align: center;
     }
     figure.effect-item p { 
         font-size: 0.7em;
@@ -250,13 +251,8 @@ figure.effect-item:hover p {
 
 @media only screen and (max-width: 767px) {
   #skills{
-    height:260vh;
-    .skills{
-      height:40vh;
-      h4{
-        text-decoration: underline;
-      }
-    }
+    height: 260vh;
+    background-color: #666;
   }
 }
 //skill css ends
@@ -296,21 +292,19 @@ figure.effect-item:hover p {
 @media only screen and (max-width: 767px){
   #about{
    height: 143vh;
-   h1{
+   h2{
      text-align: center;
-     margin-left: 25px;
+     font-size: 2.3em;
    }
-  .jntu,.jipt,.green,.code{
-        height:27vh;
-        margin-top:0;
-        h4{
-            font-size:15px;
-            text-align: center;
-            line-height: 1.4em;
-        }
-    }
     img{
-     margin-left: 140px;
+     width:170px;
+     height:170px;
+     text-align: left;
+    }
+    p{
+      font-size: 1.5em;
+      text-align: center;
+      line-height: 2.5em;
     }
  }
 }
