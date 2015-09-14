@@ -2600,7 +2600,7 @@ figure.effect-item:hover p {
   top: 50%;
   transform: translateY(-50%);
   font-size: 32px;
-  font-family: "Montserrat",sans-serif;
+  font-family: "PT Serif", serif;
   font-weight: 400;
   text-align: center; }
 
@@ -2685,19 +2685,17 @@ footer {
   height: 150px;
   padding-top: 20px;
   text-align: center; }
-
-footer span {
-  color: #FF5252;
-  animation-iteration-count: infinite; }
+  footer span {
+    color: #FF5252;
+    animation-iteration-count: infinite; }
 
 .social {
   margin-right: 15px;
   margin-bottom: 20px; }
-
-.social a {
-  color: #b8b8b8;
-  opacity: .8;
-  transition: .35s; }
+  .social a {
+    color: #b8b8b8;
+    opacity: .8;
+    transition: .35s; }
 
 .social a:hover {
   opacity: 1; }

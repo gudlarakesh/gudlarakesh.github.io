@@ -67,7 +67,7 @@
   top:50%;
   transform:translateY(-50%);
   font-size:32px;
-  font-family:"Montserrat",sans-serif;
+  font-family: 'PT Serif', serif ;
   font-weight:400;
   text-align:center
 }
@@ -82,8 +82,6 @@
 .overlay nav ul li{
   display:block;
   height:20%;
-  // height:-webkit-calc(100% / 5);
-  // height:calc(100% /  5);
   min-height:32px;
   position:relative;
   opacity:0
@@ -164,19 +162,19 @@ footer{
   height:150px;
   padding-top:20px;
   text-align:center;
-}
-footer span{
-  color:$footer-span-color;
-  animation-iteration-count:infinite;
+  span{
+    color:$footer-span-color;
+    animation-iteration-count:infinite;
+  }
 }
 .social{
   margin-right:15px;
   margin-bottom:20px;
-}
-.social a{
-  color:$footer-social-color;
-  opacity:.8;
-  transition:.35s;
+  a{
+    color:$footer-social-color;
+    opacity:.8;
+    transition:.35s;
+  }
 }
 .social a:hover{
   opacity:1;
