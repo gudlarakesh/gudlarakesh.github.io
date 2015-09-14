@@ -6,10 +6,18 @@
 // contact css starts
 #contact{
   background-color: #BDC3C7;
+  font-family: 'PT Serif', serif;
     height: 50vh;
+    .divider{
+      background-color:#333;
+      height:2px;
+      width:80px;
+      margin:30px auto
+    }
     h2{
         text-align:center;
-        font-size: 2.0em;
+        font-size: 2.3em;
+        font-weight: 300;
     }
     p{
         text-align:center;
@@ -25,14 +33,16 @@
 
 .portfolio {
     position: relative;
+    font-family: 'PT Serif', serif;
     min-width: 100%;
     height: 100vh;
     padding: 0;
     background-color: #DADFE1;
 }
 .portfolio h3{
-    font-size: 1.8em;
+    font-size: 2.0em;
     text-align: center;
+    font-weight: 300;
 }
 
 .portfolio-item {
@@ -139,7 +149,7 @@ figure.effect-item:hover img {
 
 figure.effect-item h2 {
     padding-top: 100px;
-    font-family: 'Montserrat Regular';
+    font-family: 'PT Serif', serif;
     font-size: 1.1em;
     letter-spacing: 0.05em;
     word-spacing: 0.15em;
@@ -192,21 +202,29 @@ figure.effect-item:hover p {
 //skills starts
 
 #technical{
-  background-color: #666;
+  background-color: #C7C9BB;
   height: 100vh;
   text-align: center;
   
   .technical .container{
     padding-top:85px ;
+    font-family: 'PT Serif', serif;
     padding-bottom:69px ;
   }
  
   .heading h2{
-    color:#fff;
+    color:#333;
     font-size: 2.5em;
+    font-weight: 300;
   }
   .skill-top{
     margin-top: 7em;
+  }
+  .divider{
+  background-color:#333;
+  height:2px;
+  width:80px;
+  margin:30px auto
   }
 
   .skillsArea{
@@ -217,7 +235,7 @@ figure.effect-item:hover p {
       padding:0px;
       float:none;
       .percent {
-        color: #fff;
+        color: #000;
         display: inline-block;
         font-size: 1.8em;
         line-height: 60px;
@@ -226,7 +244,7 @@ figure.effect-item:hover p {
       h4{
         text-transform:uppercase;
         padding: 0;
-        color: #fff;
+        color: #000;
       }
     }
   }
@@ -264,27 +282,33 @@ figure.effect-item:hover p {
 #about{
   background-color: #3299BB;
   color: #fff;
+  font-family: 'PT Serif', serif;
+  .divider{
+  background-color:#fff;
+  height:2px;
+  width:80px;
+  margin:30px auto
+  }
  h2{
     text-align: center;
     font-size: 3em;
+    font-weight: 300;
     }
-    // img{
-    //     height:100px;
-    //     width:100px;
-    // }
     p{
       font-size: 1.8em;
       margin-top: 2em;
       text-align: center;
+      font-family: 'Lato', sans-serif;
+      font-weight: thin;
     }
     img{
       margin-top: 4em;
-      -webkit-border-radius: 25%;
-              border-radius: 25%;
-            opacity: 0.8;
+          border-radius: 45%;
+          color: white;
+          opacity: 0.8;
           &:hover{
-            color: black;
             opacity: 1;
+            transition: all 1.5s;
           }
     }
 }
