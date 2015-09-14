@@ -2443,11 +2443,11 @@ figure.effect-item:hover p {
   text-align: center; }
   #technical .technical .container {
     padding-top: 85px;
-    font-family: 'PT Serif', serif;
     padding-bottom: 69px; }
   #technical .heading h2 {
     color: #333;
     font-size: 2.5em;
+    font-family: 'PT Serif', serif;
     font-weight: 300; }
   #technical .skill-top {
     margin-top: 7em; }
@@ -2457,7 +2457,8 @@ figure.effect-item:hover p {
     width: 80px;
     margin: 30px auto; }
   #technical .skillsArea {
-    padding: 0px; }
+    padding: 0px;
+    font-family: 'PT Serif', serif; }
     #technical .skillsArea .skills {
       margin: 0 auto;
       text-align: center;
