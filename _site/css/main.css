@@ -2305,11 +2305,10 @@ Copyright (c) 2015 Daniel Eden
   height: 100vh;
   padding: 0;
   background-color: #DADFE1; }
-
-.portfolio h3 {
-  font-size: 2.0em;
-  text-align: center;
-  font-weight: 300; }
+  .portfolio h3 {
+    font-size: 2.0em;
+    text-align: center;
+    font-weight: 300; }
 
 .portfolio-item {
   height: 300px;
@@ -2324,20 +2323,18 @@ Copyright (c) 2015 Daniel Eden
   height: 100%;
   text-align: center;
   cursor: pointer; }
-
-.item figure img {
-  position: relative;
-  display: block;
-  min-width: 100%;
-  max-width: 100%;
-  height: auto;
-  min-height: 100%; }
-
-.item figure figcaption {
-  padding: 2em;
-  font-size: 1.25em;
-  color: #fff;
-  text-transform: uppercase; }
+  .item figure img {
+    position: relative;
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 100%; }
+  .item figure figcaption {
+    padding: 2em;
+    font-size: 1.25em;
+    color: #fff;
+    text-transform: uppercase; }
 
 .item figure figcaption:before,
 .item figure figcaption:after {
@@ -2376,13 +2373,12 @@ Copyright (c) 2015 Daniel Eden
 .item figure p {
   letter-spacing: 1px;
   font-size: 68.5%; }
-
-.item figure p a {
-  text-decoration: none;
-  color: #FFF;
-  padding-left: 50px;
-  padding-top: 30px;
-  margin-right: 50px; }
+  .item figure p a {
+    text-decoration: none;
+    color: #FFF;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-right: 50px; }
 
 figure.effect-item {
   background: #000; }
@@ -2395,10 +2391,9 @@ figure.effect-item img {
   filter: grayscale(1);
   -webkit-filter: gray;
   filter: gray; }
-
-figure.effect-item:hover img {
-  opacity: 0.15;
-  transform: scale(1.025); }
+  figure.effect-item img:hover img {
+    opacity: 0.15;
+    transform: scale(1.025); }
 
 figure.effect-item h2 {
   padding-top: 100px;
@@ -2510,7 +2505,7 @@ figure.effect-item:hover p {
     margin-top: 2em;
     text-align: center;
     font-family: 'Lato', sans-serif;
-    font-weight: thin; }
+    font-weight: 300; }
   #about img {
     margin-top: 4em;
     border-radius: 45%;
