@@ -2280,7 +2280,7 @@ Copyright (c) 2015 Daniel Eden
   overflow: hidden; }
 
 #contact {
-  background-color: #BDC3C7;
+  background-color: #00B0FF;
   font-family: 'PT Serif', serif;
   height: 50vh; }
   #contact .divider {
@@ -2304,7 +2304,7 @@ Copyright (c) 2015 Daniel Eden
   min-width: 100%;
   height: 100vh;
   padding: 0;
-  background-color: #DADFE1; }
+  background-color: #F5F5F5; }
   .portfolio h3 {
     font-size: 2.0em;
     text-align: center;
@@ -2433,7 +2433,7 @@ figure.effect-item:hover p {
   .portfolio-item {
     height: 425px; } }
 #technical {
-  background-color: #C7C9BB;
+  background-color: #DCEDC8;
   height: 100vh;
   text-align: center; }
   #technical .technical .container {
@@ -2488,8 +2488,8 @@ figure.effect-item:hover p {
     height: 260vh;
     background-color: #666; } }
 #about {
-  background-color: #3299BB;
-  color: #fff;
+  background-color: #FFCC80;
+  color: #323;
   font-family: 'PT Serif', serif; }
   #about .divider {
     background-color: #fff;
@@ -2673,7 +2673,7 @@ figure.effect-item:hover p {
   transform: translateX(0%); }
 
 footer {
-  background-color: #F1F1F1;
+  background-color: #18FFFF;
   border-top: 1px solid #E0E0E0;
   color: #b0b0b0;
   font-size: .929em;
@@ -2681,14 +2681,16 @@ footer {
   padding-top: 20px;
   text-align: center; }
   footer span {
-    color: #FF5252;
+    color: #6D4C41;
     animation-iteration-count: infinite; }
+  footer p {
+    color: #6D4C41; }
 
 .social {
   margin-right: 15px;
   margin-bottom: 20px; }
   .social a {
-    color: #b8b8b8;
+    color: #6D4C41;
     opacity: .8;
     transition: .35s; }
 
@@ -2708,4 +2710,4 @@ footer {
   color: #000; }
 
 .social-mail:hover {
-  color: #FF5252; }
+  color: #6D4C41; }
