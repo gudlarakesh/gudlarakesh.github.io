@@ -80,6 +80,12 @@ a {
   padding-top: 150px;
   padding-bottom: 150px; }
 
+@media only screen and (max-width: 767px) {
+  #title {
+    color: #000; }
+
+  #sub {
+    color: #000; } }
 @media (min-width: 768px) {
   h1 {
     font-size: 1.571em; }
@@ -2280,7 +2286,7 @@ Copyright (c) 2015 Daniel Eden
   overflow: hidden; }
 
 #contact {
-  background-color: #00B0FF;
+  background-color: #00BDBD;
   font-family: 'PT Serif', serif;
   height: 50vh; }
   #contact .divider {
@@ -2488,10 +2494,10 @@ figure.effect-item:hover p {
 
 @media only screen and (max-width: 767px) {
   #skills {
-    height: 260vh;
-    background-color: #666; }
+    height: 280vh;
+    background-color: #F5F5F5; }
     #skills #technical {
-      background-color: #666; } }
+      background-color: #F5F5F5; } }
 #about {
   background-color: #00BDBD;
   color: #323;
