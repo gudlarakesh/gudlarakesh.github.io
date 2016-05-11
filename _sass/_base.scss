@@ -16,7 +16,7 @@ a{color:#000}
 // Land page css start
 
 .bkg{
-  background:url('../image/profile2.jpg') center/cover no-repeat;
+  background:url('../image/desk3.jpg') center/cover no-repeat;
   position:relative;
   min-height:102vh;
 }
@@ -66,16 +66,16 @@ a{color:#000}
 }
 
 #title{
-  color:#3299BB ;
+  color:#332933 ;
   font-family:  'Lato', sans-serif;
   animation-delay:.5s;
   font-size: 5em;
-  font-weight: 100;
-  margin-top: 9vh;
+  font-weight: 300;
+  margin-top: 15vh;
 }
 
 #sub{
-  color: #3299BB;
+  color: #332933;
   font-family: 'PT Serif', serif ;
   text-transform: capitalize;
   font-size:2em;
@@ -85,7 +85,7 @@ a{color:#000}
 }
 
 .divider{
-  background-color:#3299BB;
+  background-color:#332933;
   height:2px;
   width:80px;
   margin:30px auto

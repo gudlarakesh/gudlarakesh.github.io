@@ -13,7 +13,7 @@ a {
   color: #000; }
 
 .bkg {
-  background: url("../image/profile2.jpg") center/cover no-repeat;
+  background: url("../image/desk3.jpg") center/cover no-repeat;
   position: relative;
   min-height: 102vh; }
 
@@ -53,15 +53,15 @@ a {
   text-transform: uppercase; }
 
 #title {
-  color: #3299BB;
+  color: #332933;
   font-family: 'Lato', sans-serif;
   animation-delay: .5s;
   font-size: 5em;
-  font-weight: 100;
-  margin-top: 9vh; }
+  font-weight: 300;
+  margin-top: 15vh; }
 
 #sub {
-  color: #3299BB;
+  color: #332933;
   font-family: "PT Serif", serif;
   text-transform: capitalize;
   font-size: 2em;
@@ -70,7 +70,7 @@ a {
   animation-duration: 1s; }
 
 .divider {
-  background-color: #3299BB;
+  background-color: #332933;
   height: 2px;
   width: 80px;
   margin: 30px auto; }
@@ -2275,7 +2275,7 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
-#skills, #about {
+#about {
   height: 100vh;
   overflow: hidden; }
 
@@ -2307,7 +2307,7 @@ Copyright (c) 2015 Daniel Eden
   min-width: 100%;
   height: 100vh;
   padding: 0;
-  background-color: #F5F5F5; }
+  background-color: #00BDBD; }
   .portfolio h3 {
     font-size: 2.0em;
     text-align: center;
@@ -2435,53 +2435,53 @@ figure.effect-item:hover p {
 @media only screen and (min-width: 1600px) {
   .portfolio-item {
     height: 425px; } }
-#technical {
-  background-color: #DCEDC8;
+#skills #technical {
+  background-color: #F5F5F5;
   height: 100vh;
   text-align: center; }
-  #technical .technical .container {
+  #skills #technical .technical .container {
     padding-top: 85px;
     padding-bottom: 69px; }
-  #technical .heading h2 {
+  #skills #technical .heading h2 {
     color: #333;
     font-size: 2.5em;
     font-family: 'PT Serif', serif;
     font-weight: 300; }
-  #technical .skill-top {
+  #skills #technical .skill-top {
     margin-top: 7em; }
-  #technical .divider {
+  #skills #technical .divider {
     background-color: #333;
     height: 2px;
     width: 80px;
     margin: 30px auto; }
-  #technical .skillsArea {
+  #skills #technical .skillsArea {
     padding: 0px;
     font-family: 'PT Serif', serif; }
-    #technical .skillsArea .skills {
+    #skills #technical .skillsArea .skills {
       margin: 0 auto;
       text-align: center;
       padding: 0px;
       float: none; }
-      #technical .skillsArea .skills .percent {
+      #skills #technical .skillsArea .skills .percent {
         color: #000;
         display: inline-block;
         font-size: 1.8em;
         line-height: 60px;
         margin-top: 2em; }
-      #technical .skillsArea .skills h4 {
+      #skills #technical .skillsArea .skills h4 {
         text-transform: uppercase;
         padding: 0;
         color: #000; }
-  #technical .skill-mid {
+  #skills #technical .skill-mid {
     margin-top: 4em; }
-  #technical .chart {
+  #skills #technical .chart {
     position: relative;
     display: inline-block;
     width: 152px;
     height: 152px;
     margin-bottom: 26px;
     text-align: center; }
-    #technical .chart canvas {
+    #skills #technical .chart canvas {
       position: absolute;
       top: 0;
       left: 0; }
@@ -2489,9 +2489,11 @@ figure.effect-item:hover p {
 @media only screen and (max-width: 767px) {
   #skills {
     height: 260vh;
-    background-color: #666; } }
+    background-color: #666; }
+    #skills #technical {
+      background-color: #666; } }
 #about {
-  background-color: #FFCC80;
+  background-color: #00BDBD;
   color: #323;
   font-family: 'PT Serif', serif; }
   #about .divider {
@@ -2520,14 +2522,15 @@ figure.effect-item:hover p {
 
 @media only screen and (max-width: 767px) {
   #about {
-    height: 143vh; }
+    height: 123vh; }
     #about h2 {
       text-align: center;
       font-size: 2.3em; }
     #about img {
       width: 170px;
       height: 170px;
-      text-align: left; }
+      margin-left: 80px;
+      visibility: hidden; }
     #about p {
       font-size: 1.5em;
       text-align: center;
@@ -2676,7 +2679,7 @@ figure.effect-item:hover p {
   transform: translateX(0%); }
 
 footer {
-  background-color: #18FFFF;
+  background-color: #F5F5F5;
   border-top: 1px solid #E0E0E0;
   color: #b0b0b0;
   font-size: .929em;
