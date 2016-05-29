@@ -39,7 +39,7 @@
     position: relative;
     font-family: 'PT Serif', serif;
     min-width: 100%;
-    height: 100vh;
+    height: 140vh;
     padding: 0;
     background-color: #00BDBD;
   h3{
@@ -179,7 +179,7 @@ figure.effect-item:hover p {
 
 @media only screen and (max-width: 767px) {
   #portfolio{
-    height:260vh;
+    height:340vh;
     .portfolio-item {
         height: 35vh;
     }
