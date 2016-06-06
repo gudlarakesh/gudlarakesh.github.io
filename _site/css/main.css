@@ -2288,7 +2288,7 @@ Copyright (c) 2015 Daniel Eden
 #contact {
   background-color: #00BDBD;
   font-family: 'PT Serif', serif;
-  height: 50vh; }
+  height: 53vh; }
   #contact .divider {
     background-color: #333;
     height: 2px;
@@ -2443,7 +2443,7 @@ figure.effect-item:hover p {
     height: 425px; } }
 #skills #technical {
   background-color: #F5F5F5;
-  height: 100vh;
+  height: 110vh;
   text-align: center; }
   #skills #technical .technical .container {
     padding-top: 85px;
